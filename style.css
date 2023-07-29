@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+#contactForm {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 5px solid #d8d6d6;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+button {
+    width:100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    background-color: #000000;
+    color: #ffffff;
+    border: 3px solid rgb(248, 239, 239);
+    cursor: pointer;
+}
+.grid-container {
+    position:relative;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:5px; 
+    padding-top:30px;
+}
+.grid-item {
+    background-color: #d4d4d4;
+    padding: 10px;
+    text-align: center;
+}
+img{
+    
+    margin-left:80%;
+    position:block;
+    height:50px;
+    
+}
+footer{
+    margin-top: 100%;
+}
+
