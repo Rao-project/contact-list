@@ -5,12 +5,12 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #4d4949d5;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
 }
-#contactForm {
+#contactlist{
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
@@ -24,12 +24,14 @@ input {
     border-radius: 50px;
     box-sizing: border-box;
 }
-
+input:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+}
 button {
     width:100%;
     padding: 12px 12px;
     margin: 8px 0;
-    background-color: #000000;
+    background-color: #4d4949d5;
     color: #ffffff;
     border: 3px solid rgb(248, 239, 239);
     cursor: pointer;
@@ -46,6 +48,16 @@ button {
     padding: 10px;
     text-align: center;
 }
+.card{
+    position:relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.5s;
+    border: 1px solid rgb(211, 202, 202);
+    border-radius: 10px;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 img{
     
     margin-left:80%;
@@ -53,7 +65,5 @@ img{
     height:50px;
     
 }
-footer{
-    margin-top: 100%;
-}
+
 
