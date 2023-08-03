@@ -58,4 +58,10 @@ input{
     padding: 10px;
     text-align: center;
 }
-    
+.grid-item:hover{
+    background-color: #a7a4a4;
+    border-radius: 2px;
+}
+#profile_button{
+    background-color: #a7a4a4;
+}

@@ -7,28 +7,39 @@
     <link rel="stylesheet" href="css/profile.css">
 </head>
 <body>
+    <!-- Header tag start here -->
     <header>
         <hr><h1> MY PROFILE </h1><hr>
-        </header>&ensp;
-        
+    </header>
+    <!-- Header tag ends here -->
+    <main>
+        <!-- profile page -->
         <div class="profile">&emsp;
             <img src="image/Avatar.png" id="img4" alt="Avatar">
         </div>
         <div class="card"> 
-        <form action="information">
-        <center>    
-            <input type="text"id="frist-name"  placeholder="firstname"><br>
-            <input type="text"id="surname" placeholder="surname"><br>
-            <input type="Email"id="Email" placeholder="Email"><br>
-            <input type="date"id="Bod" placeholder="DD/MM/YYYY"><br>
-            <input type="text"id="note" placeholder="Note">
-        </center>
-        </form></div>
-        <div class="grid-container">
-            <section class="grid-item"><img src="image/list.png" id="img1" alt="list"></section>
-            <section class="grid-item"><img src="image/starred.png" id="img2" alt="favorite"></section>
-            <section class="grid-item"><img src="image/profile.png" id="img3" alt="profile"></section>
+            <form action="information">
+                <center>    
+                    <input type="text"id="frist-name"  placeholder="firstname"><br>
+                    <input type="text"id="surname" placeholder="surname"><br>
+                    <input type="Email"id="Email" placeholder="Email"><br>
+                    <input type="date"id="Bod" placeholder="DD/MM/YYYY"><br>
+                    <input type="text"id="note" placeholder="Note">
+                </center>
+            </form>
         </div>
-      
+    </main>
+    <!-- Main section ends here -->
+    <!--footer start here  -->
+    <footer>
+        <div class="grid-container">
+            <section class="grid-item list" id="list_button"><img src="image/list.png" id="img1" alt="list"></section>
+            <section class="grid-item fav" id="favorite_button"><img src="image/starred.png" id="img2" alt="favorite"></section>
+            <section class="grid-item profile" id="profile_button"><img src="image/profile.png" id="img3" alt="profile"></section>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+    <!-- script tag start here -->
+      <script src="Javascript/Profile.js"></script>
 </body>
 </html>

@@ -80,6 +80,9 @@ button {
 	border-top-left-radius: 0;
 	background-color:#7e7c7c;
 }
+#list_button{
+    background-color: #a7a4a4;
+}
 .grid-item:hover{
     background-color: #a7a4a4;
     border-radius: 2px;
